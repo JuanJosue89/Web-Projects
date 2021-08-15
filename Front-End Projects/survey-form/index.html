@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="title-div">
+        <h1 id="title">After School Survey Form</h1>
+        <p id="description">Thank you for your time and help us find the best after school programs for you</p>
+    </div>
+        <form id="survey-form">
+            <div id="input-div">
+                <label id="name-label" placeholder="name">Name:</label><br>
+                <input id="name" type="text" size="20"><br>
+                <label id="email-label" placeholder="email">Email:</label><br>
+                <input id="email" type="text" size="20"><br>
+                <label id="num-label" placeholder="number">Age:</label><br>
+                <input id="num" type="number" min="0"><br>
+            </div>
+            <div id="dropdown-div">
+                <label id="dropdown-label">Which activity do you like more?</label><br>
+                <select id="dropdown">
+                    <option value="gaming">Gaming</option>
+                    <option value="sports">Sports</option>
+                    <option value="tv">Watch Tv</option>
+                    <option value="homework">Homework</option>
+                    <option value="clean">Help around the house</option>
+                </select>
+            </div>
+            <div id="radio-div">
+                <label id="radio-list">After which activity you eat in a fast food?</label><br>
+			    <label id="radio">
+				    <input type="radio" name="school" checked="checked">School
+			    </label><br>
+			    <label id="radio">
+				    <input type="radio" name="practice">Practice
+			    </label><br>
+                <label id="radio">
+				    <input type="radio" name="clean">Help around the house
+			    </label><br>
+                <label id="radio">
+				    <input type="radio" name="homework">Homework
+			    </label><br>
+            </div>
+            <div id="check-div">
+                <label id="checkbox-list">What type of food do you like? (Select all if apply)</label><br>
+			    <label id="checkbox">
+				    <input type="checkbox">Burger
+			    </label><br>
+			    <label id="checkbox">
+				    <input type="checkbox">Soda
+			    </label><br>
+                <label id="checkbox">
+				    <input type="checkbox">Fries
+			    </label><br>
+                <label id="checkbox">
+				    <input type="checkbox">Chicken
+			    </label><br>
+                <label id="checkbox">
+				    <input type="checkbox">Candy
+			    </label><br>
+            </div>
+            <div id="text-id">
+                <label id="comment">Additional Comments</label><br>
+			    <textarea cols="40" rows="5"></textarea><br>
+			    <button id="submit" size="30">Submit</button>
+            </div>
+        </form>
+    <div>
+        <h3 id="footer">Survey Form designed by Juan Josu&eacute; Serrano</h3>
+    </div>
+</body>
+</html>
