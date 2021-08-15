@@ -4,13 +4,20 @@
 }
 
 body {
-    background-color: beige;
+    background: url("https://ourcodeworld.com/public-media/articles/articleocw-5d07e6b3790af.jpg");
+    background-size: cover;
+    
 }
 
 #title-div, #input-div {
     text-align: center;
-    
 }
+
+#title, #description {
+    color:white
+}
+
+
 
 label {
     font-weight: bold;
@@ -34,6 +41,7 @@ label {
     margin-left: 400px;
     padding-bottom: 40px;
     border-radius: 5px;
+    opacity: 0.8;
 }
 
 #dropdown-div {
